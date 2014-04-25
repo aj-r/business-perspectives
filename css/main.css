@@ -12,7 +12,7 @@ body {
   margin-top: 10px;
 }
 
-.col-md-4 h2 {
+.col-md-4 h2, .col-md-8 h2 {
   background-color: rgb(109, 160, 250);
   color: rgb(224, 245, 255);
   padding: 7px;
@@ -20,9 +20,19 @@ body {
   box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
 }
 
+.col-md-4 h2 {
+  background-color: rgb(109, 160, 250);
+  color: rgb(224, 245, 255);
+}
+
+.col-md-8 h2 {
+  background-color: #555;
+  color: #eee;
+}
+
 .contact {
   background-color: #555;
-  color: #AAA;
+  color: #bbb;
   font-size: 16px;
   box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
 }
@@ -33,10 +43,21 @@ body {
   padding-left: 0;
   padding-right: 0;
   box-shadow: none;
+  border-bottom: 1px solid #eee;
 }
 
 .contact .field,
 .contact a, .contact a:hover, .contact a:visited, .contact a:active {
   color:#EEE;
   font-weight: bold;
+}
+
+.subtitle {
+  font-style:italic;
+  font-size: 18px;
+  color: #888;
+  position: absolute;
+  left: 60px;
+  top: 0px;
+  font-family: "Times New Roman", Times, serif;
 }

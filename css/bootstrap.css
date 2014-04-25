@@ -738,6 +738,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  position: relative;
 }
 @media (min-width: 768px) {
   .container {
@@ -2007,7 +2008,6 @@ select[multiple].input-lg {
           user-select: none;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px;
 }
 .btn:focus,
 .btn:active:focus,
@@ -3456,7 +3456,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li {
   position: relative;
   display: block;
-  float: left;
+}
+@media (min-width: 768px) {
+  .nav > li {
+    float: left;
+  }
 }
 .nav > li > a {
   position: relative;
@@ -3465,11 +3469,24 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #ddd;
   font-weight: bold;
   border-radius: 5px;
+  height: 50px;
+  font-size: 16px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #494949;
+  left:8px;
+  animation: linkHover 0.5s;
+  -webkit-animation: linkHover 0.5s;
+  -moz-animation: linkHover 0.5s;
+}
+@keyframes linkHover {
+  from { left:0px; }
+  to { left:8px;}
+}
+@-webkit-keyframes linkHover {
+  from { left:0px; }
+  to { left:8px;}
 }
 .nav > li.disabled > a {
   color: #999;

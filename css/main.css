@@ -5,7 +5,7 @@ body {
   min-width:440px;
 }
 
-.altBrand {
+.alt-brand {
   color: #6DA0FA;
 }
 
@@ -19,18 +19,13 @@ body {
 
 .col-md-4 h2, .col-md-8 h2 {
   background-color: rgb(109, 160, 250);
-  color: rgb(224, 245, 255);
+  color: rgb(240, 250, 255);
   padding: 7px 14px;
   margin-top: 0;
   box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
 }
 
-.col-md-4 h2 {
-  background-color: rgb(109, 160, 250);
-  color: rgb(224, 245, 255);
-}
-
-.col-md-8 h2 {
+.alt-col h2 {
   background-color: #555;
   color: #eee;
 }
@@ -73,6 +68,6 @@ body {
   color: #888;
   position: absolute;
   left: 60px;
-  top: 0px;
+  top: 30px;
   font-family: "Times New Roman", Times, serif;
 }

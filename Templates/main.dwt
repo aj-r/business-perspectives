@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="favicon.ico">
-    <!-- TemplateBeginEditable name="doctitle" -->
-    <title>Business Perspectives</title>
-    <!-- TemplateEndEditable -->
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet">
-    <!-- TemplateBeginEditable name="head" -->
-    <!-- TemplateEndEditable -->
-  </head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- TemplateBeginEditable name="doctitle" -->
+  <title>Business Perspectives</title>
+  <!-- TemplateEndEditable -->
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/main.css" rel="stylesheet">
+  <!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+  <!-- TemplateParam name="Contact" type="boolean" value="true" -->
+  <!-- TemplateParam name="Testimonials" type="boolean" value="true" -->
+</head>
 
   <body>
     <!-- nav bar -->
@@ -31,14 +32,14 @@
           </button>
           <a class="navbar-brand" href="index.html">
             <img src="img/logo.png" />
-            Business <span class="altBrand">Perspectives</span>
+            Business <span class="alt-brand">Perspectives</span>
           </a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav">
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
           </ul>
         </div>
       </div>
@@ -58,7 +59,7 @@
 
     <div class="container">
       <div class="row">
-        <!-- TemplateBeginEditable name="content2" -->
+      	<!-- TemplateBeginEditable name="content2" -->
         <div class="col-md-4">
           <h2>Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -68,9 +69,11 @@
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         </div>
         <!-- TemplateEndEditable -->
+        <div></div>
+      	<!-- TemplateBeginIf cond="Contact" -->
         <div class="col-md-4 contact">
           <h2>Connect</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+          <p>Business Perspectives is a Calgary based business. For more information or to book services, please contact Janice Richardson:</p>
           <p>
             Phone:<br />
             <span class="field">
@@ -91,16 +94,22 @@
             </span>
           </p>
         </div>
+        <!-- TemplateEndIf -->
       </div>
+	  <!-- TemplateBeginEditable name="content3" -->
       <div class="row">
-        <div class="col-md-8">
+      </div>
+      <!-- TemplateEndEditable -->
+        <div></div>
+      <!-- TemplateBeginIf cond="Testimonials" -->
+      <div class="row">
+        <div class="col-md-8 alt-col">
           <h2>Testimonials</h2>
           <p class="testimonial">Sample content</p>
         </div>
       </div>
-
+      <!-- TemplateEndIf -->
       <hr>
-
       <footer>
         <p>&copy; Business Perspectives 2014</p>
       </footer>

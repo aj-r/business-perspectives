@@ -4,6 +4,10 @@ body {
   padding-bottom: 20px;
 }
 
+.altBrand {
+  color: #6DA0FA;
+}
+
 .navbar {
   box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
 }
@@ -37,6 +41,11 @@ body {
   box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
 }
 
+@media (max-width: 991px) {
+  .contact {
+    margin: 10px 15px;
+  }
+}
 .contact h2 {
   color: #EEE;
   background: none;

@@ -30,8 +30,8 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html">
-            <!-- TODO: add logo here -->
-            Business Perspectives
+            <img src="img/logo.png" />
+            Business <span class="altBrand">Perspectives</span>
           </a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
@@ -52,7 +52,6 @@
         <div class="subtitle">
           Providing occasional or part time help in Human Resources / Office Administration
         </div>
-        <h1>[Insert image here]</h1>
         <!-- TemplateEndEditable -->
       </div>
     </div>
@@ -61,14 +60,12 @@
       <div class="row">
         <!-- TemplateBeginEditable name="content2" -->
         <div class="col-md-4">
-          <h2>About Us</h2>
+          <h2>Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="about.html" role="button">Read more &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <h2>Services</h2>
+          <h2>Heading</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="services.html" role="button">Read more &raquo;</a></p>
         </div>
         <!-- TemplateEndEditable -->
         <div class="col-md-4 contact">

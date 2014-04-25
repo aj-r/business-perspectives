@@ -2,6 +2,7 @@
 body {
   padding-top: 70px;
   padding-bottom: 20px;
+  min-width:440px;
 }
 
 .altBrand {
@@ -59,6 +60,11 @@ body {
 .contact a, .contact a:hover, .contact a:visited, .contact a:active {
   color:#EEE;
   font-weight: bold;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact .field {
+    font-size: 13px;
+  }
 }
 
 .subtitle {

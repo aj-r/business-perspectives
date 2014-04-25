@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="/Templates/main.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +7,15 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="favicon.ico">
-    <!-- InstanceBeginEditable name="doctitle" -->
+    <!-- TemplateBeginEditable name="doctitle" -->
     <title>Business Perspectives</title>
-    <!-- InstanceEndEditable -->
+    <!-- TemplateEndEditable -->
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
-    <!-- InstanceBeginEditable name="head" -->
-    <!-- InstanceEndEditable -->
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
   </head>
 
   <body>
@@ -48,18 +48,18 @@
 
     <div class="jumbotron">
       <div class="container">
-        <!-- InstanceBeginEditable name="content1" -->
+        <!-- TemplateBeginEditable name="content1" -->
         <div class="subtitle">
           Providing occasional or part time help in Human Resources / Office Administration
         </div>
         <h1>[Insert image here]</h1>
-        <!-- InstanceEndEditable -->
+        <!-- TemplateEndEditable -->
       </div>
     </div>
 
     <div class="container">
       <div class="row">
-        <!-- InstanceBeginEditable name="content2" -->
+        <!-- TemplateBeginEditable name="content2" -->
         <div class="col-md-4">
           <h2>About Us</h2>
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -70,7 +70,7 @@
           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           <p><a class="btn btn-default" href="services.html" role="button">Read more &raquo;</a></p>
         </div>
-        <!-- InstanceEndEditable -->
+        <!-- TemplateEndEditable -->
         <div class="col-md-4 contact">
           <h2>Connect</h2>
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
@@ -115,5 +115,5 @@
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
-<!-- InstanceEnd --></html>
+</html>
 

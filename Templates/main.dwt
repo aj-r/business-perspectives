@@ -70,28 +70,30 @@
         </div>
         <!-- TemplateEndEditable -->
       	<!-- TemplateBeginIf cond="Contact" -->
-        <div class="col-md-4 contact">
+        <div class="col-md-4">
+       	  <div class="contact">
           <h2>Connect</h2>
-          <p>Business Perspectives is a Calgary based business. For more information or to book services, please contact Janice Richardson.</p>
-          <p>
-            Phone:<br />
-            <span class="field">
-              403-703-9552
-            </span>
-          </p>
-          <p>
-            E-mail:<br />
-            <span class="field">
-              <script type="text/javascript">
-                // Obfuscate
-                var addr = "janice.richardson" + "@" + "businessperspectives.ca";
-                document.write("<a href='mai" + "lto:" + addr + "'>" + addr + "</a>");
-              </script>
-              <noscript>janice.richardson</noscript>
-              <noscript>@</noscript>
-              <noscript>businessperspectives.ca</noscript>
-            </span>
-          </p>
+            <p>Business Perspectives is a Calgary based business. For more information or to book services, please contact Janice Richardson.</p>
+            <p>
+              Phone:<br />
+              <span class="field">
+                403-703-9552
+              </span>
+            </p>
+            <p>
+              E-mail:<br />
+              <span class="field">
+                <script type="text/javascript">
+                  // Obfuscate
+                  var addr = "janice.richardson" + "@" + "businessperspectives.ca";
+                  document.write("<a href='mai" + "lto:" + addr + "'>" + addr + "</a>");
+                </script>
+                <noscript>janice.richardson</noscript>
+                <noscript>@</noscript>
+                <noscript>businessperspectives.ca</noscript>
+              </span>
+            </p>
+          </div>
         </div>
         <!-- TemplateEndIf -->
       </div>

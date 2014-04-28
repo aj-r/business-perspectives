@@ -4,6 +4,11 @@ body {
   padding-bottom: 20px;
   min-width:440px;
 }
+@media (max-width: 512px) {
+  body {
+    padding-top: 110px;
+  }
+}
 
 .alt-brand {
   color: #6DA0FA;
@@ -15,6 +20,10 @@ body {
 
 .navbar .container {
   margin-top: 10px;
+}
+
+.banner {
+  width:100%;
 }
 
 .col-md-4 h2, .col-md-8 h2 {
@@ -35,13 +44,10 @@ body {
   color: #bbb;
   font-size: 16px;
   box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.5);
+  padding: 1px 15px;
+  margin-bottom: 15px;
 }
 
-@media (max-width: 991px) {
-  .contact {
-    margin: 10px 15px;
-  }
-}
 .contact h2 {
   color: #EEE;
   background: none;

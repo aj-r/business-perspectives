@@ -3464,7 +3464,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 25px;
+  padding: 10px 20px;
   color: #ddd;
   font-weight: bold;
   border-radius: 5px;
@@ -3478,7 +3478,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover:before {
   content: url(../img/arrow.png);
   position:absolute;
-  left:15px;
+  left:10px;
   top:8px;
 }
 .nav > li.disabled > a {
@@ -3757,6 +3757,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 11px 15px;
   font-size: 36px;
   line-height: 20px;
+  white-space:nowrap;
 }
 .navbar-brand > img {
   margin-top: -5px;
@@ -4383,7 +4384,7 @@ a.list-group-item.active > .badge,
   margin-left: 3px;
 }
 .jumbotron {
-  padding: 30px;
+  padding: 0px;
   margin-bottom: 30px;
   color: inherit;
   background-color: #eee;
@@ -4404,10 +4405,6 @@ a.list-group-item.active > .badge,
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
-  .jumbotron {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
   .container .jumbotron {
     padding-right: 60px;
     padding-left: 60px;

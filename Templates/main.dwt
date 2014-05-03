@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="../public_html/favicon.ico">
   <!-- TemplateBeginEditable name="doctitle" -->
   <title>Business Perspectives</title>
   <!-- TemplateEndEditable -->
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="../public_html/css/bootstrap.css" rel="stylesheet">
   <!-- Custom styles for this template -->
-  <link href="css/main.css" rel="stylesheet">
+  <link href="../public_html/css/main.css" rel="stylesheet">
   <!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
   <!-- TemplateParam name="Contact" type="boolean" value="true" -->
   <!-- TemplateParam name="Testimonials" type="boolean" value="true" -->
@@ -30,16 +30,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">
-            <img src="img/logo.png" />
+          <a class="navbar-brand" href="../public_html/index.html">
+            <img src="../public_html/img/logo.png" />
             Business <span class="alt-brand">Perspectives</span>
           </a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
           <ul class="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="about.html">About</a></li>
+            <li><a href="../public_html/index.html">Home</a></li>
+            <li><a href="../public_html/services.html">Services</a></li>
+            <li><a href="../public_html/about.html">About</a></li>
           </ul>
         </div>
       </div>
@@ -119,8 +119,8 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery-1.11.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../public_html/js/jquery-1.11.0.min.js"></script>
+    <script src="../public_html/js/bootstrap.min.js"></script>
   </body>
 </html>
 

@@ -3766,6 +3766,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   line-height: 20px;
   white-space:nowrap;
 }
+@media (max-width: 512px) {
+  .navbar-brand {
+    font-size: 24px;
+  }
+}
 .navbar-brand > img {
   margin-top: -5px;
 }
@@ -4656,6 +4661,7 @@ a.list-group-item {
 a.list-group-item .list-group-item-heading {
   color: #333;
 }
+
 a.list-group-item:hover,
 a.list-group-item:focus {
   text-decoration: none;
